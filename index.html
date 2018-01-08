@@ -24,27 +24,54 @@
     </ul>
 </nav>
 
-<!-- "body" -->
 <main>
+  <h1>Commercial Propert - Add Field</h1>
 
-  <!-- "form" -->
 
-  <form>
-    <h1>Field Details</h1>
-      <h3>Display Label</h3>
-      <input type="text" name="displaylabel"><br>
-      <h3>Default Value</h3>
-      <input type="text" name="defaultvalue">
-      <h3>Custom Validation</h3>
-      <input type="text" name="customvalidation">
-      <h3>Reference Name</h3>
-      <input type="text" name="referencename">
-    <h2>Tags</h2>
-      <h3>Tag Group</h3>
-      <!-- display tags here -->
-      <h3>Tags</h3>
-        <span>Select a tag group to see individual tags</span>
-  </form>
+  <div id="fielddetails">
+    <form>
+
+      <div id="fieldtypes">
+        <h1>Field Types</h1>
+        <h3>Filter Types</h3>
+        <input type="text" id="myInput" onkeyup="myFunction()">
+      </div>
+
+      <div id="fielddetails">
+        <h1>Field Details</h1>
+          <h3>Display Label</h3>
+          <input type="text" name="displaylabel"><br>
+          <h3>Default Value</h3>
+          <input type="text" name="defaultvalue">
+          <h3>Custom Validation</h3>
+          <input type="text" name="customvalidation">
+          <h3>Reference Name</h3>
+          <input type="text" name="referencename">
+        <h2>Tags</h2>
+          <h3>Tag Group</h3>
+          <!-- display tags here -->
+          <h3>Tags</h3>
+            <span>Select a tag group to see individual tags</span>
+      </div>
+
+      <div id="fieldgroups">
+        <h2>Field Groups</h2>
+        <span>Choose a group for this input</span>
+        <!--Populate field group choices-->
+        <input type="submit" value="Add A New Group">
+      </div>
+    </form>
+
+
+
+      </form>
+
+    </div>
+  </div>
+
+
+
+
 
 </main>
 
