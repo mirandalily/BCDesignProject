@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F8FAFA;
+}
+
+nav {
+  background: #00404A;
+  width: 100%;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 0;
+}
+
+nav ul li a {
+  color: #F8FAFA;
+}
