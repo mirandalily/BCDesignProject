@@ -22,3 +22,32 @@ nav ul li {
 nav ul li a {
   color: #F8FAFA;
 }
+
+/*Form*/
+#fieldtypes {
+  padding-left: 25px;
+  border: solid 1px #A3C3C8;
+  margin-left: 3%;
+  width: 25%;
+  float: left;
+  background: #EBF2F4;
+}
+
+#detailsandgroups {
+  padding-left: 25px;
+  border: solid 1px #A3C3C8;
+  float: left;
+  width: 59%;
+}
+
+#details {
+  width:30%;
+}
+
+#groups {
+  float: right;
+  clear: right;
+  margin-top: -550px;
+  padding-right: 25px;
+  background: #F8FAFA;
+}
